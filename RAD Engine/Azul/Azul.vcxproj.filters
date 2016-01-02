@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_GPU">
+      <UniqueIdentifier>{a27fe879-6e0a-4c3c-ada9-24b54518a0e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Camera">
+      <UniqueIdentifier>{cb377608-6cd5-44e3-904d-84da53abd643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Core">
+      <UniqueIdentifier>{bcba7792-1e8a-460f-9022-9dec9c484924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Render">
+      <UniqueIdentifier>{403b2c63-5b98-4909-bc78-c3e327d0753e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__External_Libs">
+      <UniqueIdentifier>{af1098b1-990d-4520-b1bd-d707cbe7b35d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__External_Libs\_Time">
+      <UniqueIdentifier>{672bed00-238e-4a9f-bcfc-0141dbe65b64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__External_Libs\_Time\include">
+      <UniqueIdentifier>{399c2184-4065-46d7-b43c-1283925bbe06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__External_Libs\_Math">
+      <UniqueIdentifier>{8fb80cb1-5115-4057-bc71-17cd2cf1490f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__External_Libs\_Math\include">
+      <UniqueIdentifier>{31879568-881e-4603-ac27-69a6ba540d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__External_Libs\_GLTools">
+      <UniqueIdentifier>{153ed734-fda0-4ceb-8592-58f593da5d2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__External_Libs\_GLFW">
+      <UniqueIdentifier>{d8b85a63-f416-424a-b35c-da70af8da706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__External_Libs\_File">
+      <UniqueIdentifier>{baa55e18-8eb8-4de2-b5c9-089da2024f47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__External_Libs\_File\include">
+      <UniqueIdentifier>{12a94928-1721-4741-8ec1-7b6e91d7901f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Input">
+      <UniqueIdentifier>{c5f3a692-da27-444b-b1c4-562572ccac88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Model">
+      <UniqueIdentifier>{b42315aa-a9ff-46d0-8082-342302cbabf7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Time\include\Time.h">
+      <Filter>__External_Libs\_Time\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Time\include\Timer.h">
+      <Filter>__External_Libs\_Time\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Math\include\MathApp.h">
+      <Filter>__External_Libs\_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Math\include\MathEngine.h">
+      <Filter>__External_Libs\_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenGL\GLTools\include\GLTools.h">
+      <Filter>__External_Libs\_GLTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenGL\GLFW\include\glfw3.h">
+      <Filter>__External_Libs\_GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\File\include\File.h">
+      <Filter>__External_Libs\_File\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AzulFileHdr.h">
+      <Filter>_GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GPUverts.h">
+      <Filter>_GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Render_FlatTexture.h">
+      <Filter>_Render</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RenderMaterial.h">
+      <Filter>_Render</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Render_WireFrame.h">
+      <Filter>_Render</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GraphicsObject.h">
+      <Filter>_Render</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GraphicsObject_WireFrame.h">
+      <Filter>_Render</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GraphicsObject_FlatTexture.h">
+      <Filter>_Render</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RenderMan.h">
+      <Filter>_Render</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Azul.h">
+      <Filter>_Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AzulUnused.h">
+      <Filter>_Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Camera.h">
+      <Filter>_Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CameraMan.h">
+      <Filter>_Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine.h">
+      <Filter>_Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GpuModel.h">
+      <Filter>_GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GpuTexture.h">
+      <Filter>_GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TextureData.h">
+      <Filter>_GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UserInterface.h">
+      <Filter>_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ShaderMan.h">
+      <Filter>_Render</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InputMan.h">
+      <Filter>_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Keyboard.h">
+      <Filter>_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Mouse.h">
+      <Filter>_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PyramidCreateModel.h">
+      <Filter>_Model</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SphereModel.h">
+      <Filter>_Model</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BoxModel.h">
+      <Filter>_Model</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GraphicsObject_ColorNoTexture.h">
+      <Filter>_Render</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Render_ColorNoTexture.h">
+      <Filter>_Render</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\Time\lib\TimeDebug.lib">
+      <Filter>__External_Libs\_Time</Filter>
+    </Library>
+    <Library Include="..\Time\lib\TimeRelease.lib">
+      <Filter>__External_Libs\_Time</Filter>
+    </Library>
+    <Library Include="..\Math\lib\MathDebug.lib">
+      <Filter>__External_Libs\_Math</Filter>
+    </Library>
+    <Library Include="..\Math\lib\MathRelease.lib">
+      <Filter>__External_Libs\_Math</Filter>
+    </Library>
+    <Library Include="..\OpenGL\GLTools\lib\gltoolsDebug.lib">
+      <Filter>__External_Libs\_GLTools</Filter>
+    </Library>
+    <Library Include="..\OpenGL\GLTools\lib\gltoolsRelease.lib">
+      <Filter>__External_Libs\_GLTools</Filter>
+    </Library>
+    <Library Include="..\OpenGL\GLFW\lib\GLFW3Debug.lib">
+      <Filter>__External_Libs\_GLFW</Filter>
+    </Library>
+    <Library Include="..\OpenGL\GLFW\lib\GLFW3Release.lib">
+      <Filter>__External_Libs\_GLFW</Filter>
+    </Library>
+    <Library Include="..\File\lib\FileDebug.lib">
+      <Filter>__External_Libs\_File</Filter>
+    </Library>
+    <Library Include="..\File\lib\FileRelease.lib">
+      <Filter>__External_Libs\_File</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\UserInterface.cpp">
+      <Filter>_Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsObject.cpp">
+      <Filter>_Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsObject_FlatTexture.cpp">
+      <Filter>_Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsObject_WireFrame.cpp">
+      <Filter>_Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Render_FlatTexture.cpp">
+      <Filter>_Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Render_WireFrame.cpp">
+      <Filter>_Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RenderMan.cpp">
+      <Filter>_Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RenderMaterial.cpp">
+      <Filter>_Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GpuModel.cpp">
+      <Filter>_GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GpuTexture.cpp">
+      <Filter>_GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>_Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CameraMan.cpp">
+      <Filter>_Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine.cpp">
+      <Filter>_Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ShaderMan.cpp">
+      <Filter>_Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputMan.cpp">
+      <Filter>_Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mouse.cpp">
+      <Filter>_Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Keyboard.cpp">
+      <Filter>_Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PyramidCreateModel.cpp">
+      <Filter>_Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SphereModel.cpp">
+      <Filter>_Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BoxModel.cpp">
+      <Filter>_Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsObject_ColorNoTexture.cpp">
+      <Filter>_Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Render_ColorNoTexture.cpp">
+      <Filter>_Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>

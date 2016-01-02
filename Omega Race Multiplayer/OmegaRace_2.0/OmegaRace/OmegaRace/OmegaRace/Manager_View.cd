@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OmegaRace.Manager">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAASAAAAAAAAAAAEEAAIAAEAAIEIgAAIAAQAIA=</HashCode>
+      <FileName>Manager\Manager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="active" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CollisionManager.GameObjManager">
+    <Position X="0.5" Y="3.25" Width="1.75" />
+    <Members>
+      <Method Name="clear" Hidden="true" />
+      <Method Name="GameObjManager" Hidden="true" />
+      <Method Name="Instance" Hidden="true" />
+      <Method Name="privGetNewObj" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEQAAAAAAIAMAAAEEAAAAQAAAABAAgAAQgAAAAAAACA=</HashCode>
+      <FileName>GameObjects\GameObjManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OmegaRace.PhysicsMan">
+    <Position X="2.5" Y="3.25" Width="1.75" />
+    <Members>
+      <Method Name="Instance" Hidden="true" />
+      <Method Name="PhysicsMan" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgAAAAAAAAAAABAAAAABAAAAAQgAAAAAAAAA=</HashCode>
+      <FileName>PhysicManager\PhysicsMan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionManager.GameObject">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="spriteRef" Type="SpriteAnimation.Sprite_Proxy" ManuallyRouted="true">
+      <Path>
+        <Point X="8.75" Y="5.158" />
+        <Point X="12.75" Y="5.158" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAIAgCEAABCAAABBAAAgAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\GameObject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="physicsObj" />
+      <Field Name="spriteRef" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OmegaRace.ManLink">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAABEAAIAAAA=</HashCode>
+      <FileName>Manager\ManLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OmegaRace.GameObjNode">
+    <Position X="4.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAEAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>GameObjects\GameObjNode.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gameObj" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OmegaRace.PhysicsObj">
+    <Position X="9.75" Y="3.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>PhysicManager\PhysicsObj.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gameObj" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpriteAnimation.DisplayObject" Collapsed="true">
+    <Position X="12.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SpriteAnimation\DisplayObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpriteAnimation.Sprite">
+    <Position X="15" Y="4.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CAAQAAAAAAAAAAUAQAAAAAAAEAAAAAAAAAAUIAAAAAA=</HashCode>
+      <FileName>SpriteAnimation\Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpriteAnimation.Sprite_Proxy">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAAAAAAgCAAACAAIACABAAAACAAAAEAAAAAAA=</HashCode>
+      <FileName>SpriteAnimation\Sprite.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="sprite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpriteAnimation.TextSprite">
+    <Position X="16.75" Y="4.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAUAAAAAAAAQgAAAIABAIACAAAAAACAAAAEAAAgACA=</HashCode>
+      <FileName>SpriteAnimation\TextSprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionManager.Bomb" Collapsed="true">
+    <Position X="5.5" Y="6.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>gIQAAAEAEAAMgAAAD0AAIGAAEAAEAAAEAABAEgAAABA=</HashCode>
+      <FileName>GameObjects\Bomb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionManager.FencePost" Collapsed="true">
+    <Position X="7.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\FencePost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionManager.Missile">
+    <Position X="9" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIQBAAAAAIAAgAEADAABAEAAAAAEAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>GameObjects\Missile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionManager.Ship">
+    <Position X="10.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAIAAAgEADAAABEAAAAAEAAAAAAAAAgAAIAA=</HashCode>
+      <FileName>GameObjects\Ship.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionManager.Wall" Collapsed="true">
+    <Position X="3.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIQAAAAAAAAAAgAADAAAAEgAACAAAAAAAQAEAgAAAAA=</HashCode>
+      <FileName>GameObjects\Wall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

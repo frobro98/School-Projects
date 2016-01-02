@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CollisionPairProcessor&lt;C1, C2&gt;">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABQAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>RAD\CollisionPairProcessor.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="colGroup1" />
+      <Field Name="colGroup2" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CollisionGroup&lt;T&gt;">
+    <Position X="3.25" Y="1" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="CollisionGroup&lt;T&gt;::CollidableSet" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>RAD\CollisionGroup.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QAAAAAQAACAACAAAgAAIAAAAAABIAAAAAAAAQFAAEAA=</HashCode>
+      <FileName>RAD\CollisionGroup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SingleCollisionProcessor&lt;C1&gt;">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAQAAAAAAAQAAA=</HashCode>
+      <FileName>RAD\SingleCollisionProcessor.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="colGroup" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Collidable">
+    <Position X="5.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIAAgAAAAAAAAAgBAgAACCAAAABAAAAIICAAAASAAIA=</HashCode>
+      <FileName>RAD\Collidable.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="boundingVol" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CollisionVolume">
+    <Position X="8" Y="3.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAEgAgAAAAAEAACAAAAEAAAIAAAAGIAAAAAAAAACQ=</HashCode>
+      <FileName>RAD\CollisionVolume.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoundingBox" Collapsed="true">
+    <Position X="9" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABEAAAAAEAAAAAIAAAAAKAAAhAAAAAABAEAAAA=</HashCode>
+      <FileName>RAD\BoundingBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoundingSphere" Collapsed="true">
+    <Position X="7.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAgCAAAAEAAAAAAAgAAAIAAACCACAAAAAAAACQ=</HashCode>
+      <FileName>RAD\BoundingSphere.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AxisAlignedBoundingBox" Collapsed="true">
+    <Position X="8.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAggAAQAECAAAAAAAABEIAAAACAAAAAAAAAACQ=</HashCode>
+      <FileName>RAD\AxisAlignedBoundingBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrientingBoundingBox" Collapsed="true">
+    <Position X="10" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAEAAAAAAAAAAQIAAAACAAAAAAEAQACQ=</HashCode>
+      <FileName>RAD\OrientingBoundingBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCSNode">
+    <Position X="8" Y="1" Width="1.5" />
+    <Members>
+      <Method Name="~PCSNode" Hidden="true" />
+      <Method Name="getChild" Hidden="true" />
+      <Method Name="getParent" Hidden="true" />
+      <Method Name="getSibling" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BAAAAAQAAAAAAABAAECAAAACIAAACAAAAAAgAABAQAQ=</HashCode>
+      <FileName>RAD\PCSNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TreeBuilder">
+    <Position X="11.5" Y="1" Width="1.5" />
+    <Members>
+      <Method Name="~TreeBuilder" Hidden="true" />
+      <Method Name="recConstructTree" Hidden="true" />
+      <Method Name="TreeBuilder" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAgAACAAAAAAEBAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>RAD\TreeBuilder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

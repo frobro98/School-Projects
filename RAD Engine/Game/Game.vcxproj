@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C0BED050-044F-418F-ADC9-A391DE636599}</ProjectGuid>
+    <RootNamespace>Pyramid</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>Game</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</GenerateManifest>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionName)Debug</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionName)Release</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;MONKEY="$(SolutionName)";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(SolutionDir)Azul\include;$(SolutionDir)Math\include;$(SolutionDir)File\include;$(SolutionDir)Time\include;$(SolutionDir)OpenGL\GLTools\include;$(SolutionDir)OpenGL\GLFW;$(SolutionDir)OpenGL\GLFW\include</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <StringPooling>false</StringPooling>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseUnicodeForAssemblerListing>false</UseUnicodeForAssemblerListing>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PreprocessToFile>false</PreprocessToFile>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <AdditionalDependencies>OpenGL32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>%libcmt.lib;msvcrt.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;MONKEY="$(SolutionName)";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(SolutionDir)Azul\include;$(SolutionDir)Math\include;$(SolutionDir)File\include;$(SolutionDir)Time\include;$(SolutionDir)OpenGL\GLTools\include;$(SolutionDir)OpenGL\GLFW;$(SolutionDir)OpenGL\GLFW\include</AdditionalIncludeDirectories>
+      <StringPooling>false</StringPooling>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <UseUnicodeForAssemblerListing>false</UseUnicodeForAssemblerListing>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>OpenGL32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%libcmt.lib;msvcrt.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="RAD\Alarmable.cpp" />
+    <ClCompile Include="RAD\AlarmManager.cpp" />
+    <ClCompile Include="RAD\AssetManager.cpp" />
+    <ClCompile Include="RAD\AxisAlignedBoundingBox.cpp" />
+    <ClCompile Include="RAD\BoundingBox.cpp" />
+    <ClCompile Include="RAD\BoundingSphere.cpp" />
+    <ClCompile Include="RAD\CameraController.cpp" />
+    <ClCompile Include="RAD\CameraSettings.cpp" />
+    <ClCompile Include="RAD\Collidable.cpp" />
+    <ClCompile Include="RAD\CollisionManager.cpp" />
+    <ClCompile Include="RAD\CollisionTools.cpp" />
+    <ClCompile Include="RAD\CollisionVolume.cpp" />
+    <ClCompile Include="RAD\Debug.cpp" />
+    <ClCompile Include="RAD\DefaultBehavior.cpp" />
+    <ClCompile Include="RAD\Destroyable.cpp" />
+    <ClCompile Include="RAD\DestroyableManager.cpp" />
+    <ClCompile Include="RAD\DisposalManager.cpp" />
+    <ClCompile Include="RAD\Drawable.cpp" />
+    <ClCompile Include="RAD\DrawableManager.cpp" />
+    <ClCompile Include="RAD\Game.cpp" />
+    <ClCompile Include="RAD\GameObject.cpp" />
+    <ClCompile Include="RAD\Inputable.cpp" />
+    <ClCompile Include="RAD\InputManager.cpp" />
+    <ClCompile Include="RAD\main.cpp" />
+    <ClCompile Include="RAD\ModelPreciseStruct.cpp" />
+    <ClCompile Include="RAD\OctreeIterator.cpp" />
+    <ClCompile Include="RAD\OrientingBoundingBox.cpp" />
+    <ClCompile Include="RAD\PartialBoundingBox.cpp" />
+    <ClCompile Include="RAD\PCSNode.cpp" />
+    <ClCompile Include="RAD\Scene.cpp" />
+    <ClCompile Include="RAD\SceneManager.cpp" />
+    <ClCompile Include="RAD\TerrainManager.cpp" />
+    <ClCompile Include="RAD\TerrainObject.cpp" />
+    <ClCompile Include="RAD\TerrainModel.cpp" />
+    <ClCompile Include="RAD\TerrainObjectManager.cpp" />
+    <ClCompile Include="RAD\TimeManager.cpp" />
+    <ClCompile Include="RAD\Tools.cpp" />
+    <ClCompile Include="RAD\TreeBuilder.cpp" />
+    <ClCompile Include="RAD\Updateable.cpp" />
+    <ClCompile Include="RAD\UpdateableManager.cpp" />
+    <ClCompile Include="RAD\Visualizer.cpp" />
+    <ClCompile Include="User Content\UserDefinedContent.cpp" />
+    <ClCompile Include="User files\Bullet.cpp" />
+    <ClCompile Include="User files\BulletFactory.cpp" />
+    <ClCompile Include="User files\Cottage.cpp" />
+    <ClCompile Include="User files\Level.cpp" />
+    <ClCompile Include="User files\Level2.cpp" />
+    <ClCompile Include="User files\Plane.cpp" />
+    <ClCompile Include="User files\SpaceShip.cpp" />
+    <ClCompile Include="User files\WireSphere.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Azul\include\Azul.h" />
+    <ClInclude Include="..\File\include\File.h" />
+    <ClInclude Include="..\Math\include\MathApp.h" />
+    <ClInclude Include="..\Math\include\MathEngine.h" />
+    <ClInclude Include="..\Time\include\Time.h" />
+    <ClInclude Include="..\Time\include\Timer.h" />
+    <ClInclude Include="RAD\Alarmable.h" />
+    <ClInclude Include="RAD\AlarmManager.h" />
+    <ClInclude Include="RAD\AssetManager.h" />
+    <ClInclude Include="RAD\AxisAlignedBoundingBox.h" />
+    <ClInclude Include="RAD\BoundingBox.h" />
+    <ClInclude Include="RAD\BoundingSphere.h" />
+    <ClInclude Include="RAD\CameraBehavior.h" />
+    <ClInclude Include="RAD\CameraController.h" />
+    <ClInclude Include="RAD\CameraSettings.h" />
+    <ClInclude Include="RAD\Collidable.h" />
+    <ClInclude Include="RAD\CollisionGroup.h" />
+    <ClInclude Include="RAD\CollisionGroupBase.h" />
+    <ClInclude Include="RAD\CollisionManager.h" />
+    <ClInclude Include="RAD\CollisionPairProcessor.h" />
+    <ClInclude Include="RAD\CollisionProcessorBase.h" />
+    <ClInclude Include="RAD\CollisionTools.h" />
+    <ClInclude Include="RAD\CollisionVolume.h" />
+    <ClInclude Include="RAD\Debug.h" />
+    <ClInclude Include="RAD\DefaultBehavior.h" />
+    <ClInclude Include="RAD\Destroyable.h" />
+    <ClInclude Include="RAD\DestroyableManager.h" />
+    <ClInclude Include="RAD\DestroyableReceiver.h" />
+    <ClInclude Include="RAD\DisposalManager.h" />
+    <ClInclude Include="RAD\DoxygenModules.h" />
+    <ClInclude Include="RAD\Drawable.h" />
+    <ClInclude Include="RAD\DrawableManager.h" />
+    <ClInclude Include="RAD\Game.h" />
+    <ClInclude Include="RAD\GameObject.h" />
+    <ClInclude Include="RAD\Inputable.h" />
+    <ClInclude Include="RAD\InputManager.h" />
+    <ClInclude Include="RAD\Iterator.h" />
+    <ClInclude Include="RAD\ModelPreciseStruct.h" />
+    <ClInclude Include="RAD\OctreeIterator.h" />
+    <ClInclude Include="RAD\OrientingBoundingBox.h" />
+    <ClInclude Include="RAD\PartialBoundingBox.h" />
+    <ClInclude Include="RAD\PCSNode.h" />
+    <ClInclude Include="RAD\RAD.h" />
+    <ClInclude Include="RAD\Scene.h" />
+    <ClInclude Include="RAD\SceneManager.h" />
+    <ClInclude Include="RAD\SingleCollisionProcessor.h" />
+    <ClInclude Include="RAD\TerrainCollisionProcessor.h" />
+    <ClInclude Include="RAD\TerrainManager.h" />
+    <ClInclude Include="RAD\TerrainModel.h" />
+    <ClInclude Include="RAD\TerrainObject.h" />
+    <ClInclude Include="RAD\TerrainObjectManager.h" />
+    <ClInclude Include="RAD\TimeManager.h" />
+    <ClInclude Include="RAD\Tools.h" />
+    <ClInclude Include="RAD\TreeBuilder.h" />
+    <ClInclude Include="RAD\Updateable.h" />
+    <ClInclude Include="RAD\UpdateableManager.h" />
+    <ClInclude Include="RAD\Visualizer.h" />
+    <ClInclude Include="User files\Bullet.h" />
+    <ClInclude Include="User files\BulletFactory.h" />
+    <ClInclude Include="User files\Cottage.h" />
+    <ClInclude Include="User files\Level.h" />
+    <ClInclude Include="User files\Level2.h" />
+    <ClInclude Include="User files\Plane.h" />
+    <ClInclude Include="User files\SpaceShip.h" />
+    <ClInclude Include="User files\WireSphere.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\Azul\lib\AzulDebug.lib">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\Azul\lib\AzulRelease.lib">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\File\lib\FileDebug.lib">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\File\lib\FileRelease.lib">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\Math\lib\MathDebug.lib">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\Math\lib\MathRelease.lib">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\Time\lib\TimeDebug.lib">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\Time\lib\TimeRelease.lib">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Camera System.cd" />
+    <None Include="Collision System.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

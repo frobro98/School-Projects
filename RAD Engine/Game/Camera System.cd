@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CameraController">
+    <Position X="1.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAQAAAAAAAAAAAAEAAAAAIABAAAAAAgAAAAAAABA=</HashCode>
+      <FileName>RAD\CameraController.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="currCam" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CameraSettings">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAAAAAAAAgAAIAABgAAQABAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>RAD\CameraSettings.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="behavior" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CameraBehavior">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAARAAAAAAAIAAgAAAAAAAAAAAAAAAAAAAgAAIEAAA=</HashCode>
+      <FileName>RAD\CameraBehavior.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefaultBehavior">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>RAD\DefaultBehavior.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

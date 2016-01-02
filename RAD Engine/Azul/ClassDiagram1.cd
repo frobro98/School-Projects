@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GraphicsObject">
+    <Position X="2" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEIAAAAACBgABAAAAAAAAAAAAAAUQABAQAAAAAAA=</HashCode>
+      <FileName>include\GraphicsObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsObjectWireFrame">
+    <Position X="3" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAACAABAAgAAAAAA=</HashCode>
+      <FileName>include\GraphicsObject_WireFrame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsObjectFlatTexture">
+    <Position X="0.5" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>include\GraphicsObject_FlatTexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderMaterial">
+    <Position X="8" Y="1.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="RenderMaterial::RenderType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>include\RenderMaterial.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAgAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>include\RenderMaterial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderWireFrame">
+    <Position X="7" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAJAAAAAAAABAAAAAA=</HashCode>
+      <FileName>include\Render_WireFrame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderFlatTexture">
+    <Position X="9" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAgAAAAAAAAAAAAABAAAAAAAABAAAAAA=</HashCode>
+      <FileName>include\Render_FlatTexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

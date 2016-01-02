@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="User Content\UserDefinedContent.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="User files\Cottage.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="User files\Level.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="User files\Plane.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="User files\SpaceShip.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="User files\WireSphere.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\CollisionManager.cpp">
+      <Filter>RAD\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\Game.cpp">
+      <Filter>RAD\Game Loop</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\main.cpp">
+      <Filter>RAD\Game Loop</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\GameObject.cpp">
+      <Filter>RAD\GameObject and Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\Scene.cpp">
+      <Filter>RAD\GameObject and Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\SceneManager.cpp">
+      <Filter>RAD\Managers\GameLoop Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\UpdateableManager.cpp">
+      <Filter>RAD\Managers\GameLoop Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\InputManager.cpp">
+      <Filter>RAD\Managers\GameLoop Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\DrawableManager.cpp">
+      <Filter>RAD\Managers\GameLoop Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\DisposalManager.cpp">
+      <Filter>RAD\Managers\User Object Management</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\AlarmManager.cpp">
+      <Filter>RAD\Managers\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\TimeManager.cpp">
+      <Filter>RAD\Managers\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\AssetManager.cpp">
+      <Filter>RAD\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\Alarmable.cpp">
+      <Filter>RAD\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\Destroyable.cpp">
+      <Filter>RAD\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\Drawable.cpp">
+      <Filter>RAD\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\Inputable.cpp">
+      <Filter>RAD\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\Updateable.cpp">
+      <Filter>RAD\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\Tools.cpp">
+      <Filter>RAD\Utilites</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\Debug.cpp">
+      <Filter>RAD\Utilites</Filter>
+    </ClCompile>
+    <ClCompile Include="User files\Bullet.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="User files\Level2.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="User files\BulletFactory.cpp">
+      <Filter>Source\Factorys</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\DestroyableManager.cpp">
+      <Filter>RAD\Managers\GameLoop Managers\DestroyableBehaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\Collidable.cpp">
+      <Filter>RAD\Modules\Collidable</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\BoundingSphere.cpp">
+      <Filter>RAD\Modules\Collidable</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\CollisionVolume.cpp">
+      <Filter>RAD\Modules\Collidable</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\CollisionTools.cpp">
+      <Filter>RAD\Utilites</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\CameraController.cpp">
+      <Filter>RAD\Camera System</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\CameraSettings.cpp">
+      <Filter>RAD\Camera System</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\DefaultBehavior.cpp">
+      <Filter>RAD\Camera System</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\Visualizer.cpp">
+      <Filter>RAD\Utilites</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\TerrainModel.cpp">
+      <Filter>RAD\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\TerrainObjectManager.cpp">
+      <Filter>RAD\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\TerrainObject.cpp">
+      <Filter>RAD\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\TerrainManager.cpp">
+      <Filter>RAD\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\TreeBuilder.cpp">
+      <Filter>RAD\Modules\Collidable\SpherePacking</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\PCSNode.cpp">
+      <Filter>RAD\Modules\Collidable\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\OctreeIterator.cpp">
+      <Filter>RAD\Modules\Collidable\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\AxisAlignedBoundingBox.cpp">
+      <Filter>RAD\Modules\Collidable\BoundingBox</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\BoundingBox.cpp">
+      <Filter>RAD\Modules\Collidable\BoundingBox</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\OrientingBoundingBox.cpp">
+      <Filter>RAD\Modules\Collidable\BoundingBox</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\PartialBoundingBox.cpp">
+      <Filter>RAD\Modules\Collidable\BoundingBox</Filter>
+    </ClCompile>
+    <ClCompile Include="RAD\ModelPreciseStruct.cpp">
+      <Filter>RAD\Managers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="_Libs">
+      <UniqueIdentifier>{654b17f4-5c32-4af8-9c06-44081aee35e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Time">
+      <UniqueIdentifier>{00a7d9a7-621b-4cd1-ab70-b15a303a0e69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Time\include">
+      <UniqueIdentifier>{22fb9e59-7fdb-44a2-b3f4-aa36c607468e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Math">
+      <UniqueIdentifier>{f7cd51a8-6ca7-472f-a6c3-31ce8fde6c0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Math\include">
+      <UniqueIdentifier>{20f26c44-6049-453c-9a4b-38e04c3a12c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_File">
+      <UniqueIdentifier>{e3abff6f-2abf-4ce0-b8ef-784c3ec6379b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_File\include">
+      <UniqueIdentifier>{9aca96a8-c51f-4709-a910-aa551e8732cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Azul">
+      <UniqueIdentifier>{452fe1b8-c527-4569-8967-51e4f2139f06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Azul\include">
+      <UniqueIdentifier>{0ad67470-fbca-4090-bba8-5213abfc2846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAD">
+      <UniqueIdentifier>{c5c851fd-64ab-45c7-af07-8c624aac3d60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAD\Utilites">
+      <UniqueIdentifier>{31307396-beb1-4307-b9d5-0f0def5a99d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAD\Modules">
+      <UniqueIdentifier>{8c7e8bf8-bc35-4cde-894e-2970f5a97b95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAD\Managers">
+      <UniqueIdentifier>{2a41d482-2aa0-417e-8225-63df83a402cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAD\GameObject and Scene">
+      <UniqueIdentifier>{0aa0fe3e-256d-4a83-a3ff-d366056e3ca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAD\Managers\Time">
+      <UniqueIdentifier>{90bb5c33-6cc1-46e7-a279-f4744c08c463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAD\Managers\GameLoop Managers">
+      <UniqueIdentifier>{babb7d0a-b077-405c-a671-d05ff88550dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAD\Game Loop">
+      <UniqueIdentifier>{53ce78e6-f690-4cef-b216-4a2ce5c4d8c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{e77af22d-b980-4235-8dd2-8bb42710fc70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{d9f5ace0-04a0-4915-bb64-ee14999a4bf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAD\Collisions">
+      <UniqueIdentifier>{32ac8068-cf37-4107-a025-2884e3faa835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAD\Managers\User Object Management">
+      <UniqueIdentifier>{cf0d806e-dcad-42be-9943-fa11feeeebb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Factorys">
+      <UniqueIdentifier>{0c0425a7-6233-43ca-84ef-fd5e28b70b46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAD\Managers\GameLoop Managers\DestroyableBehaviors">
+      <UniqueIdentifier>{d0c079e4-4873-47c2-a627-2f23b81cb30f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAD\Modules\Collidable">
+      <UniqueIdentifier>{554c1908-276d-4701-ae52-f45b910d76b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAD\Camera System">
+      <UniqueIdentifier>{e0dca9db-fca8-4a28-b5b4-1688983805d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAD\Terrain">
+      <UniqueIdentifier>{eb5b4914-32f3-49cd-840a-b7768615290e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAD\Modules\Collidable\Tree">
+      <UniqueIdentifier>{050bad2b-6166-44ca-b679-7ef12980247b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAD\Modules\Collidable\SpherePacking">
+      <UniqueIdentifier>{2e60437d-eec4-4454-8ab5-2d7cf7aaf536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAD\Modules\Collidable\BoundingBox">
+      <UniqueIdentifier>{b61b51af-7cb2-4997-830a-d6414f4d8282}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Time\include\Time.h">
+      <Filter>_Libs\_Time\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Time\include\Timer.h">
+      <Filter>_Libs\_Time\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Math\include\MathApp.h">
+      <Filter>_Libs\_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Math\include\MathEngine.h">
+      <Filter>_Libs\_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\File\include\File.h">
+      <Filter>_Libs\_File\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Azul\include\Azul.h">
+      <Filter>_Libs\_Azul\include</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\CollisionGroupBase.h">
+      <Filter>RAD\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\CollisionManager.h">
+      <Filter>RAD\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\CollisionGroup.h">
+      <Filter>RAD\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\Game.h">
+      <Filter>RAD\Game Loop</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\GameObject.h">
+      <Filter>RAD\GameObject and Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\Scene.h">
+      <Filter>RAD\GameObject and Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\SceneManager.h">
+      <Filter>RAD\Managers\GameLoop Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\UpdateableManager.h">
+      <Filter>RAD\Managers\GameLoop Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\InputManager.h">
+      <Filter>RAD\Managers\GameLoop Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\DrawableManager.h">
+      <Filter>RAD\Managers\GameLoop Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\DisposalManager.h">
+      <Filter>RAD\Managers\User Object Management</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\AlarmManager.h">
+      <Filter>RAD\Managers\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\TimeManager.h">
+      <Filter>RAD\Managers\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\AssetManager.h">
+      <Filter>RAD\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\Alarmable.h">
+      <Filter>RAD\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\Destroyable.h">
+      <Filter>RAD\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\Drawable.h">
+      <Filter>RAD\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\Inputable.h">
+      <Filter>RAD\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\Updateable.h">
+      <Filter>RAD\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\RAD.h">
+      <Filter>RAD\Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\Tools.h">
+      <Filter>RAD\Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\Debug.h">
+      <Filter>RAD\Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="User files\Cottage.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="User files\Level.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="User files\Plane.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="User files\SpaceShip.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="User files\WireSphere.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="User files\Bullet.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="User files\Level2.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\DoxygenModules.h">
+      <Filter>RAD\Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="User files\BulletFactory.h">
+      <Filter>Source\Factorys</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\CollisionPairProcessor.h">
+      <Filter>RAD\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\CollisionProcessorBase.h">
+      <Filter>RAD\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\SingleCollisionProcessor.h">
+      <Filter>RAD\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\DestroyableManager.h">
+      <Filter>RAD\Managers\GameLoop Managers\DestroyableBehaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\DestroyableReceiver.h">
+      <Filter>RAD\Managers\GameLoop Managers\DestroyableBehaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\Collidable.h">
+      <Filter>RAD\Modules\Collidable</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\CollisionVolume.h">
+      <Filter>RAD\Modules\Collidable</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\BoundingSphere.h">
+      <Filter>RAD\Modules\Collidable</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\CollisionTools.h">
+      <Filter>RAD\Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\CameraController.h">
+      <Filter>RAD\Camera System</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\CameraSettings.h">
+      <Filter>RAD\Camera System</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\CameraBehavior.h">
+      <Filter>RAD\Camera System</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\DefaultBehavior.h">
+      <Filter>RAD\Camera System</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\Visualizer.h">
+      <Filter>RAD\Utilites</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\TerrainModel.h">
+      <Filter>RAD\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\TerrainObject.h">
+      <Filter>RAD\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\TerrainObjectManager.h">
+      <Filter>RAD\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\PCSNode.h">
+      <Filter>RAD\Modules\Collidable\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\TerrainCollisionProcessor.h">
+      <Filter>RAD\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\TerrainManager.h">
+      <Filter>RAD\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\TreeBuilder.h">
+      <Filter>RAD\Modules\Collidable\SpherePacking</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\Iterator.h">
+      <Filter>RAD\Modules\Collidable\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\OctreeIterator.h">
+      <Filter>RAD\Modules\Collidable\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\AxisAlignedBoundingBox.h">
+      <Filter>RAD\Modules\Collidable\BoundingBox</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\BoundingBox.h">
+      <Filter>RAD\Modules\Collidable\BoundingBox</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\OrientingBoundingBox.h">
+      <Filter>RAD\Modules\Collidable\BoundingBox</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\PartialBoundingBox.h">
+      <Filter>RAD\Modules\Collidable\BoundingBox</Filter>
+    </ClInclude>
+    <ClInclude Include="RAD\ModelPreciseStruct.h">
+      <Filter>RAD\Managers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\Azul\lib\AzulDebug.lib">
+      <Filter>_Libs\_Azul</Filter>
+    </Library>
+    <Library Include="..\Time\lib\TimeDebug.lib">
+      <Filter>_Libs\_Time</Filter>
+    </Library>
+    <Library Include="..\Time\lib\TimeRelease.lib">
+      <Filter>_Libs\_Time</Filter>
+    </Library>
+    <Library Include="..\Math\lib\MathDebug.lib">
+      <Filter>_Libs\_Math</Filter>
+    </Library>
+    <Library Include="..\Math\lib\MathRelease.lib">
+      <Filter>_Libs\_Math</Filter>
+    </Library>
+    <Library Include="..\File\lib\FileDebug.lib">
+      <Filter>_Libs\_File</Filter>
+    </Library>
+    <Library Include="..\File\lib\FileRelease.lib">
+      <Filter>_Libs\_File</Filter>
+    </Library>
+    <Library Include="..\Azul\lib\AzulRelease.lib">
+      <Filter>_Libs\_Azul</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Camera System.cd" />
+    <None Include="Collision System.cd">
+      <Filter>RAD\Modules\Collidable</Filter>
+    </None>
+  </ItemGroup>
+</Project>

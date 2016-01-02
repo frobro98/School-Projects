@@ -1,0 +1,17 @@
+Player 1:
+
+A,W,D movement
+X, to fire
+C, Lay Mine
+
+Player 2:
+
+Left,Up,Right Arrows movment
+/ to fire
+, lay Mine
+
+Xbox:
+
+Dpad for movement
+A to fire
+B lay mine
